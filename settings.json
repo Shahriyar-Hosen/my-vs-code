@@ -5,7 +5,7 @@
 
 // Main
 
-/* {
+{
   // editor
   "editor.fontSize": 24,
   "editor.fontFamily": "Fira Code, Operator Mono",
@@ -75,4 +75,4 @@
   },
   "files.autoSave": "afterDelay",
   "files.autoSaveDelay": 2
-} */
+}
