@@ -5,9 +5,15 @@
 
 // Main
 
+/* {
+    // on thakle sobdo hoi + woard wrap kaj kore na 
+    "editor.accessibilitySupport": "off",
+} */
+
+// Main
 {
   // editor
-  "editor.fontSize": 24,
+  "editor.fontSize": 25,
   "editor.fontFamily": "Fira Code, Operator Mono",
   "editor.fontLigatures": true,
   "editor.wordWrap": "on",
@@ -31,11 +37,11 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "[javascript]": {
-    "editor.formatOnSave": false,
-    "editor.defaultFormatter": null
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascriptreact]": {
-    "editor.formatOnSave": false,
+    "editor.formatOnSave": true,
     "editor.defaultFormatter": null
   },
   "editor.codeActionsOnSave": {
@@ -48,7 +54,6 @@
   "terminal.integrated.fontSize": 20,
   "terminal.integrated.fontWeight": "normal",
   "terminal.integrated.fontFamily": "Fira Code, Operator Mono",
-  "workbench.colorTheme": "Material Theme Ocean High Contrast",
   "workbench.iconTheme": "vscode-icons",
   // terminal customization
   "workbench.colorCustomizations": {
@@ -74,8 +79,15 @@
     "terminal.ansiYellow": "#FAC03B"
   },
   "files.autoSave": "afterDelay",
-  "files.autoSaveDelay": 2
+  "files.autoSaveDelay": 2,
+  "workbench.startupEditor": "none",
+  "workbench.colorTheme": "Material Theme Ocean High Contrast",
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  }
 }
+
 
 /* 
 // snippet add to user snippet\
