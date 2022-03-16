@@ -12,3 +12,5 @@ Extensions
 10. JavaScript (ES6) code snippets
 11. Visual Studio IntelliCode
 12. Beautify
+13.Code Spell Checker
+14.React Extension Pack
