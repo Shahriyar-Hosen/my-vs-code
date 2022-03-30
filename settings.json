@@ -84,5 +84,6 @@
   "git.confirmSync": false,
   "git.allowForcePush": true,
   "git.alwaysShowStagedChangesResourceGroup": true,
-  "window.zoomLevel": 1
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.foldingMaximumRegions": 8000
 }
