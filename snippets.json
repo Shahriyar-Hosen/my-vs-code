@@ -27,7 +27,7 @@
   "Print to fetch": {
     "prefix": ["f", "fe"],
     "body": [
-      "fetch($api/data)",
+      "fetch($apiData)",
       " .then(res => res.json())",
       ".then(data => ($data))"
     ],
