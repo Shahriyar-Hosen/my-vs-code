@@ -1,37 +1,41 @@
 {
-    "Print to const": {
-      "prefix": ["const", "c", "co", "con", "cons"],
-      "body": ["const $1 = $2;"],
-      "description": "c output to const"
-    },
-    "Print to let": {
-      "prefix": ["l", "le", "let"],
-      "body": ["let $1 = $2;"],
-      "description": "l output to let"
-    },
-    "Print to var": {
-      "prefix": ["v", "va", "var"],
-      "body": ["var $1 = $2;"],
-      "description": "l output to var"
-    },
-    "Print to else if": {
-      "prefix": ["e", "ei"],
-      "body": ["else if (condition) {", "$1", "}"],
-      "description": "ei output to else if"
-    },
-    "Print to if else": {
-      "prefix": ["i", "ie"],
-      "body": ["if ($1) {", " $2", "}", "else if ($3) {", "$4", "}"],
-      "description": "ie output to if else"
-    },
-    "Print to fetch": {
-      "prefix": ["f", "fe"],
-      "body": [
-        "fetch($1)",
-        " .then(res => res.json())",
-        ".then(data => $2(data))"
-      ],
-      "description": "f, fe output to fetch"
-    }
+  "Print to const": {
+    "prefix": ["const", "c", "co", "con", "cons"],
+    "body": ["const $name = $value;"],
+    "description": "c output to const"
+  },
+  "Print to let": {
+    "prefix": ["l", "le", "let"],
+    "body": ["let $name = $value;"],
+    "description": "l output to let"
+  },
+  "Print to var": {
+    "prefix": ["v", "va", "var"],
+    "body": ["var $name = $value;"],
+    "description": "l output to var"
+  },
+  "Print to else if": {
+    "prefix": ["e", "ei"],
+    "body": ["else if ($condition) {", "$first", "}"],
+    "description": "ei output to else if"
+  },
+  "Print to if else": {
+    "prefix": ["i", "ie"],
+    "body": ["if ($condition) {", " $2", "}", "else if ($condition) {", "$4", "}"],
+    "description": "ie output to if else"
+  },
+  "Print to fetch": {
+    "prefix": ["f", "fe"],
+    "body": [
+      "fetch($api/data)",
+      " .then(res => res.json())",
+      ".then(data => ($data))"
+    ],
+    "description": "f, fe output to fetch"
+  },
+  "Print to anonymous function": {
+    "prefix": ["a", "af"],
+    "body": ["($first) => $second"],
+    "description": "a, af output to anonymous function"
   }
-  
+}
