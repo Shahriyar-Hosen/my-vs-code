@@ -47,7 +47,7 @@
   "terminal.integrated.fontSize": 20,
   "terminal.integrated.fontWeight": "normal",
   "terminal.integrated.fontFamily": "Fira Code, Operator Mono",
-  "workbench.iconTheme": "vscode-icons",
+  "workbench.iconTheme": "material-icon-theme",
   // terminal customization
   "workbench.colorCustomizations": {
     "terminal.background": "#00061f",
@@ -85,5 +85,12 @@
   "git.allowForcePush": true,
   "git.alwaysShowStagedChangesResourceGroup": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "editor.foldingMaximumRegions": 8000
+  "editor.foldingMaximumRegions": 8000,
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "terminal.integrated.defaultProfile.windows": "JavaScript Debug Terminal",
+  "editor.wordWrapColumn": 100,
+  "[markdown]": {
+    "editor.wordWrapColumn": 100
+  }
 }
