@@ -7,7 +7,7 @@ Extensions
 5. Path Autocomplete - Mihai Vilcu
 6. Auto Rename Tag - Jun Han
 7. ES7 React/Redux/GraphQL/React-Native snippets - dsznajder
-8. Community Material Theme - Material Theme Ocean High Contrast
+8. Material Theme - Material Theme Ocean High Contrast
 9. HTML Snippets
 10. JavaScript (ES6) code snippets
 11. Visual Studio IntelliCode
