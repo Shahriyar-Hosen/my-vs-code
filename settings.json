@@ -6,8 +6,8 @@
 // Main
 {
   // editor
-  "editor.fontSize": 25,
-  "editor.fontFamily": "Fira Code, Operator Mono",
+  "editor.fontSize": 24,
+  "editor.fontFamily": "JetBrains Mono, Fira Code",
   "editor.fontLigatures": true,
   "editor.wordWrap": "on",
   "editor.minimap.enabled": true,
@@ -35,7 +35,7 @@
   },
   "[javascriptreact]": {
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": null
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
@@ -46,8 +46,8 @@
   //terminal
   "terminal.integrated.fontSize": 20,
   "terminal.integrated.fontWeight": "normal",
-  "terminal.integrated.fontFamily": "Fira Code, Operator Mono",
-  "workbench.iconTheme": "material-icon-theme",
+  "terminal.integrated.fontFamily": "JetBrains Mono",
+  "workbench.iconTheme": "vscode-icons",
   // terminal customization
   "workbench.colorCustomizations": {
     "terminal.background": "#00061f",
@@ -86,11 +86,16 @@
   "git.alwaysShowStagedChangesResourceGroup": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "editor.foldingMaximumRegions": 8000,
-  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "bracket-pair-colorizer-2.depreciation-notice": true,
   "diffEditor.ignoreTrimWhitespace": false,
-  "terminal.integrated.defaultProfile.windows": "JavaScript Debug Terminal",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "tailwindCSS.emmetCompletions": true,
   "editor.wordWrapColumn": 100,
   "[markdown]": {
     "editor.wordWrapColumn": 100
-  }
+  },
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "editor.fontWeight": "normal"
 }
