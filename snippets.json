@@ -21,7 +21,14 @@
   },
   "Print to if else": {
     "prefix": ["i", "ie"],
-    "body": ["if ($condition) {", " $2", "}", "else if ($condition) {", "$4", "}"],
+    "body": [
+      "if ($condition) {",
+      " $2",
+      "}",
+      "else if ($condition) {",
+      "$4",
+      "}"
+    ],
     "description": "ie output to if else"
   },
   "Print to fetch": {
@@ -37,5 +44,10 @@
     "prefix": ["a", "af"],
     "body": ["($first) => $second"],
     "description": "a, af output to anonymous function"
+  },
+  "Print to object destructure": {
+    "prefix": ["o", "od", "obde"],
+    "body": ["const { $second } = $first || {};"],
+    "description": "o, od output to object destructure"
   }
 }
