@@ -1,0 +1,58 @@
+{
+  "Print to const": {
+    "prefix": ["const", "c", "co", "con", "cons"],
+    "body": ["const $name = $value;"],
+    "description": "c output to const"
+  },
+  "Print to let": {
+    "prefix": ["l", "le", "let"],
+    "body": ["let $name = $value;"],
+    "description": "l output to let"
+  },
+  "Print to var": {
+    "prefix": ["v", "va", "var"],
+    "body": ["var $name = $value;"],
+    "description": "l output to var"
+  },
+  "Print to else if": {
+    "prefix": ["e", "ei"],
+    "body": ["else if ($condition) {", "$first", "}"],
+    "description": "ei output to else if"
+  },
+  "Print to if else": {
+    "prefix": ["i", "ie"],
+    "body": [
+      "if ($condition) {",
+      " $2",
+      "}",
+      "else if ($condition) {",
+      "$4",
+      "}"
+    ],
+    "description": "ie output to if else"
+  },
+  "Print to fetch": {
+    "prefix": ["f", "fe"],
+    "body": [
+      "fetch($apiData)",
+      " .then(res => res.json())",
+      ".then(data => ($data))"
+    ],
+    "description": "f, fe output to fetch"
+  },
+  "Print to anonymous function": {
+    "prefix": ["a", "af"],
+    "body": ["($first) => $second"],
+    "description": "a, af output to anonymous function"
+  },
+  "Print to backtick": {
+    "prefix": ["s", "l", "sl"],
+    "body": ["${$first}"],
+    "description": "s, l, and sl output to string literal"
+  },
+  "Print to backtick with anonymous function": {
+    "prefix": ["s", "l", "sl", "sa", "la", "slaf"],
+    "body": ["${$first}"],
+    "description": "s, l, and sl output to string literal with anonymous function"
+  }
+}

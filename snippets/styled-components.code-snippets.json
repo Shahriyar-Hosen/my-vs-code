@@ -1,0 +1,23 @@
+{
+  "Print to backtick": {
+    "prefix": ["s", "l", "sl"],
+    "body": ["${$first}"],
+    "description": "s, l, and sl output to string literal"
+  },
+  "Print to backtick with anonymous function": {
+    "prefix": ["s", "l", "sl", "sa", "la", "slaf"],
+    "body": ["${($first) => $second}"],
+    "description": "s, l, and sl output to string literal with anonymous function"
+  },
+  "Print to styled-components": {
+    "prefix": ["s", "st", "sty", "styl", "style", "styled"],
+    "body": [
+      "import styled from 'styled-components';",
+      " ",
+      "export const $Name = styled.$div`",
+      "   $width",
+      "`;"
+    ],
+    "description": "s, st, sty, styl, style and styled to string literal with styled-components"
+  }
+}
