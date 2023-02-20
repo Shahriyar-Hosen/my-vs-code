@@ -19,3 +19,4 @@ Extensions
 17. vscode-color-picker - AntiAntiSepticeye
 18. vscode-color-picker
 19. vscode-styled-components
+20. GitHub Copilot
