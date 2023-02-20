@@ -17,3 +17,5 @@ Extensions
 15. vscode-styled-components - Styled Components
 16. Tailwind CSS IntelliSense - Tailwind Labs
 17. vscode-color-picker - AntiAntiSepticeye
+18. vscode-color-picker
+19. vscode-styled-components
