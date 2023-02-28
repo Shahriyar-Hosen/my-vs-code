@@ -1,22 +1,30 @@
-Extensions
+Extensions:
 
-1. Auto Rename Tag - Jun Han
-2.Code Spell Checker
-3. ES7 React/Redux/GraphQL/React-Native snippets - dsznajder
-4. ES Lint - Dirk Baeumer
-5.GitLens — Git supercharged - GitKraken
-6. JavaScript (ES6) code snippets
-7. Live Server - ritwik dey
-8. Material Theme - Material Theme Ocean High Contrast
-9. Path Autocomplete - Mihai Vilcu
-10. Prettier - Code formatter - Esben Petersen
-11.React Extension Pack
-12. vscode-icons - VSCode Icons Team
-13. HTML Snippets
-14. Visual Studio IntelliCode
-15. vscode-styled-components - Styled Components
-16. Tailwind CSS IntelliSense - Tailwind Labs
-17. vscode-color-picker - AntiAntiSepticeye
-18. vscode-color-picker
-19. vscode-styled-components
-20. GitHub Copilot
+1. formulahendry.auto-close-tag,
+2. formulahendry.auto-rename-tag,
+3. streetsidesoftware.code-spell-checker,
+4. dsznajder.es7-react-js-snippets,
+5. dbaeumer.vscode-eslint,
+6. eamodio.gitlens,
+7. ecmel.vscode-html-css,
+8. visualstudioexptteam.vscodeintellicode,
+9. xabikos.javascriptsnippets,
+10. ritwickdey.liveserver,
+11. equinusocio.vsc-material-theme,
+12. christian-kohler.npm-intellisense,
+13. ionutvmi.path-autocomplete,
+14. christian-kohler.path-intellisense,
+15. bmewburn.vscode-intelephense-client,
+16. esbenp.prettier-vscode,
+17. jawandarajbir.react-vscode-extension-pack,
+18. xabikos.reactsnippets,
+19. jasonnutter.search-node-modules,
+20. tabnine.tabnine-vscode,
+21. bradlc.vscode-tailwindcss,
+22. vscode-icons-team.vscode-icons,
+23. ms-vscode-remote.remote-wsl,
+24. devsense.phptools-vscode,
+25. zobo.php-intellisense,
+26. hakcorp.php-awesome-snippets,
+27. devsense.profiler-php-vscode,
+28. devsense.composer-php-vscode,
