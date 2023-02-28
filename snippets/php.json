@@ -1,0 +1,7 @@
+{
+  "Print to variable": {
+    "prefix": "v1",
+    "body": ["$$varName = $values;"],
+    "description": "PHP variable"
+  }
+}
