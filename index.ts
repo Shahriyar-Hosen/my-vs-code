@@ -7,7 +7,6 @@ function fnName(params: string) {
 }
 
 //  comment
-
 const fullName = (first: string, second: string) => {
   return first + second;
 };
