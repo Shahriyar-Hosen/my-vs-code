@@ -6,7 +6,7 @@ function fnName(params: string) {
   console.log(varOne, varTwo, varThree);
 }
 
-//  comment
+// comment
 const fullName = (first: string, second: string) => {
   return first + second;
 };
