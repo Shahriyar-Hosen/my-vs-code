@@ -8,7 +8,7 @@ function fnName(params: string) {
 
 // comment
 const fullName = (first: string, second: string) => {
-  return first + second;
+  return { sum: first + second };
 };
 
 fullName("a", "b");
