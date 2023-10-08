@@ -3,7 +3,7 @@ function fnName(params: string) {
   const varTwo = params;
   const varThree = 11;
 
-  console.log(varOne, varTwo, varThree);
+  console.log({ varOne, varTwo, varThree });
 }
 
 // comment
