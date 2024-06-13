@@ -1,18 +1,23 @@
 /* {
-    // on thakle sobdo hoi + woard wrap kaj kore na 
+    // on thakle sobdo hoi + ward wrap kaj kore na 
     "editor.accessibilitySupport": "off",
 } */
-// Main
 {
-  // editor
-  "editor.fontFamily": "JetBrains Mono, Fira Code",
-  "workbench.iconTheme": "vscode-icons",
-  "editor.fontSize": 24,
-  "editor.wordWrap": "on",
   "editor.fontLigatures": true,
+  "workbench.tree.indent": 20,
+  "editor.fontSize": 22,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "expand",
+  "editor.lineHeight": 1.5, //2.0 || 2.5 || 32
+  "editor.fontWeight": "normal",
+  "editor.cursorStyle": "line",
+  "terminal.external.linuxExec": "xterm",
+  "workbench.iconTheme": "vscode-icons",
+  "editor.wordWrap": "on",
+  // editor
+  "editor.fontFamily": "\"Fira Code\",\"JetBrains Mono\",\"mononoki Nerd Font\",Script12 BT, Menlo, Monaco, 'Courier New', monospace",
   "editor.minimap.enabled": true,
-  "editor.minimap.scale": 2,
-  "editor.minimap.showSlider": "always",
+  "editor.minimap.scale": 1,
   "editor.accessibilitySupport": "off",
   "security.workspace.trust.untrustedFiles": "open",
   "editor.tokenColorCustomizations": {
@@ -20,16 +25,13 @@
       {
         "scope": "comment",
         "settings": {
-          "fontStyle": "italic"
+          "fontStyle": "italic",
+          // "fontFamily": "Script12 BT"
         }
       }
-    ]
+    ],
+    "comments": "#9dff0084",
   },
-  // cursor
-  "editor.cursorSmoothCaretAnimation": "on",
-  "editor.cursorBlinking": "expand",
-  // config related to code formatting
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "[javascript]": {
     "editor.formatOnSave": true,
@@ -40,41 +42,23 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,
-    "source.fixAll.tslint": true,
-    "source.organizeImports": true
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.tslint": "explicit",
+    "source.organizeImports": "explicit",
+    "source.fixAll": "always"
   },
-  "eslint.alwaysShowStatus": true,
   //terminal
   "terminal.integrated.fontSize": 20,
   "terminal.integrated.fontWeight": "normal",
-  "terminal.integrated.fontFamily": "Fira Code, MesloLGL Nerd Font, JetBrains Mono",
-  // terminal customization
+  "terminal.integrated.fontFamily": "\"JetBrains Mono\",\"Fira Code\",\"mononoki Nerd Font\",Script12 BT, Menlo, Monaco, 'Courier New', monospace",
   "workbench.colorCustomizations": {
+    // terminal customization
     "terminal.background": "#00061f",
     "terminal.foreground": "#fffafa",
-    "terminalCursor.background": "#A89984",
-    "terminalCursor.foreground": "#A89984",
-    "terminal.ansiBlack": "#1D2021",
-    "terminal.ansiBlue": "#0D6678",
-    "terminal.ansiBrightBlack": "#665C54",
-    "terminal.ansiBrightBlue": "#0D6678",
-    "terminal.ansiBrightCyan": "#8BA59B",
-    "terminal.ansiBrightGreen": "#95C085",
-    "terminal.ansiBrightMagenta": "#8F4673",
-    "terminal.ansiBrightRed": "#FB543F",
-    "terminal.ansiBrightWhite": "#FDF4C1",
-    "terminal.ansiBrightYellow": "#FAC03B",
-    "terminal.ansiCyan": "#8BA59B",
-    "terminal.ansiGreen": "#95C085",
-    "terminal.ansiMagenta": "#8F4673",
-    "terminal.ansiRed": "#FB543F",
-    "terminal.ansiWhite": "#A89984",
-    "terminal.ansiYellow": "#FAC03B"
   },
   // Others
   "files.autoSave": "onFocusChange",
-  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "terminal.integrated.enableMultiLinePasteWarning": "auto",
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
     "typescript": "typescriptreact"
@@ -86,54 +70,69 @@
   "git.allowForcePush": true,
   "git.alwaysShowStagedChangesResourceGroup": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "editor.foldingMaximumRegions": 8000,
+  "editor.foldingMaximumRegions": 5000,
   "diffEditor.ignoreTrimWhitespace": false,
   "terminal.integrated.defaultProfile.windows": "PowerShell",
   "tailwindCSS.emmetCompletions": true,
-  "editor.wordWrapColumn": 100,
-  "[markdown]": {
-    "editor.wordWrapColumn": 100
-  },
-  "liveServer.settings.donotVerifyTags": true,
-  "liveServer.settings.donotShowInfoMsg": true,
   "vsicons.dontShowNewVersionMessage": true,
-  "editor.fontWeight": "normal",
   "workbench.startupEditor": "none",
   "editor.fontVariations": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "workbench.colorTheme": "Material Theme Ocean High Contrast",
   "git.openRepositoryInParentFolders": "always",
   "tabnine.experimentalAutoImports": true,
-  "window.menuBarVisibility": "compact",
   "editor.formatOnType": true,
-  // PHP specific
-  "php.docblock.classSnippet": {
-    "@author": "Shahriyar_&_Salman",
-    "@copyright": "(c) $CURRENT_YEAR"
-  },
-  "php.docblock.functionSnippet": {
-    "@author": "Shahriyar_&_Salman",
-    "@throws": false
-  },
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
-  "[php]": {
-    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
-  },
-  "php.suggest.basic": false,
-  "php.validate.enable": false,
-  "emmet.excludeLanguages": [
-    "php",
-    "markdown"
-  ],
   "editor.mouseWheelZoom": true,
   "editor.quickSuggestions": {
     "other": "on",
     "comments": "on",
     "strings": "on"
   },
-  "editor.guides.bracketPairs": "active",
-  "editor.cursorStyle": "line",
-  "editor.lineHeight": 32
+  "cSpell.userWords": [
+    "Ahamad",
+    "Baitul",
+    "Hikmah",
+    "Hosen",
+    "Natore",
+    "Salman",
+    "Shahriyar",
+    "Sunnah"
+  ],
+  "editor.minimap.showSlider": "always",
+  "workbench.colorTheme": "Baitul Hikmah Professional",
+  "git.ignoreRebaseWarning": true,
+  "window.menuBarVisibility": "compact",
+  "editor.unicodeHighlight.allowedCharacters": {
+    "️": true
+  },
+  "html.format.wrapLineLength": 80,
+  "gitlens.graph.minimap.enabled": false,
+  "tailwindCSS.classAttributes": [
+    "class",
+    "className",
+    "cnObj",
+    "myClass",
+    "customClass"
+  ],
+  "window.density.editorTabHeight": "compact",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.sideBar.location": "left",
+  "terminal.integrated.env.windows": {},
+  "console-ninja.featureSet": "Community",
+  "gitlens.ai.experimental.provider": "openai",
+  "gitlens.ai.experimental.openai.model": "gpt-4-1106-preview",
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "files.saveConflictResolution": "overwriteFileOnDisk",
+  "sherlock.userId": "0292d3b5-0d56-4722-988c-4be10516e2f3",
+  "window.titleBarStyle": "custom",
+  "i18n-ally.ignoredLocales": [],
+  "i18n-ally.dirStructure": "auto",
+  "settingsSync.ignoredSettings": [
+    "i18n-ally.displayLanguage"
+  ],
+  "prisma.showPrismaDataPlatformNotification": false,
 }
